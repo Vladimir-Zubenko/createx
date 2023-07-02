@@ -1,0 +1,10 @@
+@use '../tools/responsive.scss';
+@use '../base/setup.scss';
+
+.container {
+    max-width: setup.$container-width;
+    padding: setup.$padding-container;
+    width: 100%;
+    margin: 0 auto;
+}
+
